@@ -1,5 +1,6 @@
 # Begin by reading the file, one line at a time. For example:
-inFile = open('five letter words.txt', 'rb', 0)
+# inFile = open('five letter words.txt', 'rb', 0)
+inFile = open('nameswords5letter.txt', 'rb', 0)
 words = []
 for line in inFile:
     # Figure out how to fill the list 'words'. Look at 'string'
